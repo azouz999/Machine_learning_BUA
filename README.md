@@ -1,102 +1,198 @@
-# Abdelrahman Atef Gamal Aly
+# Machine Learning Course - Assignments Repository
 
-**Bioinformatics Researcher | Multi-Omics Data Scientist | AI Educator**
+## 📚 Course Overview
 
-[![Email](https://img.shields.io/badge/Email-Abdelrahmanatef2717@gmail.com-blue?logo=gmail)](mailto:Abdelrahmanatef2717@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdelrahman_Atef-blue?logo=linkedin)](https://www.linkedin.com/in/abdelrahman-atef-b50320185/)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0005--4485--6315-green?logo=orcid)](https://orcid.org/my-orcid?orcid=0009-0005-4485-6315)
+Welcome to the Machine Learning course assignments repository! This platform is designed for students to submit their ML assignments in an organized and efficient manner.
 
-## 👨‍🔬 About Me
+## 🎯 Purpose
 
-I'm a passionate bioinformatics researcher and educator with expertise in multi-omics data integration and AI applications in life sciences. Currently serving as a **Teaching Assistant and Research Associate at Badr University in Asyut (BUA)** in the Faculty of Artificial Intelligence and Data Management, while pursuing my Master's in Biotechnology (Genetics) at Cairo University. My research focuses on developing advanced computational tools and deep learning algorithms for analyzing complex biological data to uncover disease mechanisms.
+This repository serves as a centralized hub for:
+- Assignment submissions
+- Course materials distribution
+- Student-instructor communication
+- Progress tracking
 
-- 🔭 **Currently working on:** Deep learning algorithms for multi-omics integration and proteomics downstream analysis
-- 🌱 **Learning & Teaching:** Advanced machine learning and deep learning applications in biotechnology
-- 💡 **Research Interests:** Disease proteoform biology, deep learning in multi-omics analysis, network biology, and AI-driven systems biology
-- 🎯 **Goal:** Bridging artificial intelligence with biological discovery to advance precision medicine
+## 📁 Repository Structure
 
-## 🏫 Academic Positions
+```
+ml-course-assignments/
+│
+├── 📂 assignments/
+│   ├── 📂 assignment-1/
+│   │   ├── 📝 problem-statement.pdf
+│   │   ├── 📂 submissions/
+│   │   │   ├── 📂 student-1/
+│   │   │   ├── 📂 student-2/
+│   │   │   └── ...
+│   │   └── 📂 solutions/
+│   ├── 📂 assignment-2/
+│   └── ...
+│
+├── 📂 course-materials/
+│   ├── 📂 datasets/
+│   ├── 📂 tutorials/
+│   └── 📂 references/
+│
+└── 📜 README.md
+```
 
-**Teaching Assistant & Research Associate** | *Faculty of Artificial Intelligence and Data Management, Badr University in Asyut (BUA)* | Current
-- Teaching courses in artificial intelligence, data management, and computational biology
-- Mentoring students in machine learning and deep learning applications
-- Conducting research on AI-driven multi-omics analysis
-- Developing curriculum for AI in life sciences applications
+## 📋 Assignment Submission Guidelines
 
-## 🛠 Technical Skills
+### 📅 Important Dates
+- **Assignment Release**: Every Monday
+- **Submission Deadline**: Following Sunday, 11:59 PM
+- **Late Submission**: 10% penalty per day (max 3 days)
 
-**AI & Machine Learning:**
-`Deep Learning` `Machine Learning` `Neural Networks` `AI Algorithms` `Predictive Modeling`
+### 🚀 How to Submit
 
-**Programming & Databases:**
-`Python` `R` `C++` `SQL` `Linux` `Git` `GitHub` `PyTorch` `TensorFlow`
+#### Method 1: Direct Upload (Recommended)
+1. Fork this repository
+2. Navigate to the assignment folder
+3. Create a folder with your Student ID_Student Name: `STUDENT_ID_LASTNAME`
+4. Upload your files:
+   - Jupyter Notebook (`.ipynb`)
+   - Python scripts (`.py`)
+   - Report (`.pdf`)
+   - Dataset files (if required)
 
-**Bioinformatics Domains:**
-`Proteomics` `Metabolomics` `Multi-omics Integration` `Image Analysis` `Spatial Transcriptomics` `scRNA-seq`
+#### Method 2: Git Commands
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ml-course-assignments.git
 
-**Data Science & Analysis:**
-`Statistical Analysis` `Data Visualization` `Data Mining` `Feature Engineering`
+# Navigate to assignment folder
+cd ml-course-assignments/assignments/assignment-1/submissions/
 
-**Tools & Frameworks:**
-`CellProfiler` `Ilastik` `PyQt` `rpy2` `DIAPLO` `MOFA` `Scikit-learn` `Keras`
+# Create your folder
+mkdir YOUR_STUDENT_ID
+cd YOUR_STUDENT_ID
 
-## 📁 Featured Projects
+# Add your files and commit
+git add .
+git commit -m "Submit Assignment 1 - [Your Name]"
 
-### 🧬 Deep Learning for Multi-Omics Integration
-Developing novel deep learning architectures for integrating proteomics, metabolomics, and transcriptomics data to identify complex biological patterns and biomarkers.
+# Push to your fork
+git push origin main
+```
 
-### 🧠 ProteoScanner
-A full open-source proteomics data analysis and visualization software developed using R and Python (PyQt, rpy2) for downstream proteomics analysis with AI-powered features.
+### 📄 Required Files for Each Submission
 
-### 🔬 AI-Driven Systems Level Analysis of Choroid Plexus Tumor
-Comprehensive analysis of aggressive formation in choroid plexus tumors using machine learning approaches.
+```
+YOUR_STUDENT_ID/
+├── 📓 main.ipynb          # Main Jupyter notebook
+├── 📊 report.pdf          # Analysis report
+└── 📝 README.md           # Your submission description
+```
 
-### 💊 ML-based Proteomics Analysis of Fursultiamine B1 Derivatives
-Differential expression analysis of different concentrations of Fursultiamine B1 derivatives in rat models.
+## 🎓 Assignment Requirements
 
-### 🦠 Integrative Multi-Omics Profiling of Rhabdomyosarcoma
-Research project revealing distinct molecular pathways and biomarker signatures in rhabdomyosarcoma subtypes using advanced computational methods (Published 2025).
+### Technical Requirements
+- **Python 3.8+** required
+- Use **Jupyter Notebook** for exploratory analysis
+- Include proper **documentation** and **comments**
+- Follow **PEP 8** coding standards
+- Use **virtual environments** (conda or venv)
 
-## 📊 Research Experience
+### Content Requirements
+1. **Problem Understanding** (10%)
+2. **Data Preprocessing** (20%)
+3. **Model Implementation** (30%)
+4. **Evaluation & Analysis** (25%)
+5. **Code Quality & Documentation** (15%)
 
-**Bioinformatics Research Associate** | *Basic Research Department, CCHE 57357* | Nov 2022 – Jan 2025
-- Developed software for proteomics downstream analysis using R and Python
-- Analyzed metabolomics and proteomics LC-MS/MS data using machine learning approaches
-- Implemented multi-omics algorithms (DIAPLO, MOFA) for data integration
-- Developed AI-powered image analysis pipelines using CellProfiler and Ilastik
+## 📊 Grading Rubric
 
-**Virtual Bioinformatician Intern** | *Sharma Lab, Harry Perkins Institute* | Aug 2022 – Oct 2022
-- Developed pipelines for Spatial Transcriptomics Analysis
-- Analyzed scRNA-seq data for liver cancer using computational methods
-- Reviewed and compared Spatial Transcriptomics tools
+| Category | Weight | Criteria |
+|----------|--------|----------|
+| **Correctness** | 40% | Algorithm implementation, results accuracy |
+| **Analysis** | 25% | Insights, visualization, interpretation |
+| **Code Quality** | 20% | Readability, organization, documentation |
+| **Creativity** | 15% | Novel approaches, extra insights |
 
-## 📚 Education
+## 🔧 Setup Instructions
 
-**Master's in Biotechnology (Genetics)** | *Cairo University* | Sep 2024 – Current
+### Prerequisites
+```bash
+# Install required packages
+pip install -r requirements.txt
 
-**Bachelor's in Bioinformatics** | *Assiut University* | Sep 2018 – Jul 2022
-- **GPA:** 3.29/4.0
-- **Honors:** Ideal Student 2021/2022
+# Or using conda
+conda env create -f environment.yml
+```
 
-## 📄 Publications
+### Required Libraries
+```python
+# Core ML Libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
 
-- **[2025]** *Integrative Multi-Omics Profiling of Rhabdomyosarcoma Subtypes Reveals Distinct Molecular Pathways and Biomarker Signatures*
+# Deep Learning (if needed)
+tensorflow
+torch
 
-## 🏆 Awards & Honors
+# Additional
+jupyter
+notebook
+colab
+```
 
-- **Next Technology Leaders (NTL)** - MCIT Grant recipient
-- **Ideal Student** - Faculty of Computers and Information (2021/2022)
-- **Fourth Winner** - Ideal Student Competition, Assiut University (2021/2022)
-- **Second Winner** - Hult Prize Competition for project "WHY DATA"
+## 📝 Assignment Schedule
 
-## 📫 Let's Connect
+| Assignment | Topic | Difficulty | Due Date |
+|------------|-------|------------|----------|
+| 1 | Linear Regression | ⭐⭐ | 13/10/2025 |
 
-I'm always open to collaborating on innovative projects at the intersection of AI and life sciences, particularly in deep learning for multi-omics analysis. Feel free to reach out for research collaborations, student mentoring, or project discussions!
 
-- **Email:** [Abdelrahmanatef2717@gmail.com](mailto:Abdelrahmanatef2717@gmail.com)
-- **LinkedIn:** [Abdelrahman Atef](https://www.linkedin.com/in/abdelrahman-atef-b50320185/)
-- **Location:** Asyut, Egypt
+## 🆘 Getting Help
+
+### Office Hours
+- **Instructor**: Saturday, 11-1 pm
+
+
+### Communication Channels
+- **Teams**: (https://teams.microsoft.com/l/team/19%3AS87T2IRiU_DCcfd-rEnitRgIDvAAwIlPpfNYD_YHmao1%40thread.tacv2/conversations?groupId=d3baa58f-53b7-47d4-9b65-450e8dd87b44&tenantId=41a3e666-3483-48b1-8743-c2b7316e7291/)
+- **Email**: instructor@university.edu
+- **Issues**: Use GitHub Issues for technical problems
+
+## ❓ Frequently Asked Questions
+
+### Q: Can I collaborate with classmates?
+**A**: Discussion is encouraged, but code must be individual. Cite any collaborations.
+
+### Q: What if I miss the deadline?
+**A**: Late submissions accepted with penalty. Contact instructor for extensions.
+
+### Q: How are assignments graded?
+**A**: Automated testing + manual review. Feedback provided within 7 days.
+
+### Q: Can I use external libraries?
+**A**: Yes, but document them in requirements.txt and justify their use.
+
+## 📚 Resources
+
+### Learning Materials
+- [Scikit-learn Documentation](https://scikit-learn.org/)
+- [PyTorch Tutorials](https://pytorch.org/tutorials/)
+- [TensorFlow Guide](https://www.tensorflow.org/guide)
+
+### Useful Tools
+- [Google Colab](https://colab.research.google.com/)
+- [Kaggle Notebooks](https://www.kaggle.com/notebooks)
+- [VS Code](https://code.visualstudio.com/)
+
+## 🎯 Success Tips
+
+1. **Start Early**: ML assignments can be time-consuming
+2. **Test Incrementally**: Build and test your code step by step
+3. **Document Everything**: Comments and markdown cells are crucial
+4. **Validate Results**: Ensure your outputs make sense
+5. **Seek Help**: Don't hesitate to ask questions
+
+
 
 ---
 
-*"Advancing precision medicine through the fusion of artificial intelligence and multi-omics biology."*
+*Good luck with your Machine Learning journey! 🚀*
